@@ -73,7 +73,7 @@ h1 {
 }
 
 .about-page {
-    background: url("/static/images/download.jpg") no-repeat center/cover;
+    background: url("/Images/download.jpg") no-repeat center/cover;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     padding: 40px;
