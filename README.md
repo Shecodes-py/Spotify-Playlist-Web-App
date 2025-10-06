@@ -1,34 +1,35 @@
-💜 Author
-Ella (Peace Udotong)
-Backend Developer | Engineering Student | Dreamer in Code
+💜 Author <br>
+Ella (Peace Udotong) <br>
+Backend Developer | Engineering Student | Dreamer in Code <br> <br>
 
-“Some friendships deserve their own playlist.”
+“Some friendships deserve their own playlist.” <br> <br>
 
-A special birthday web app built with Python (Flask) to celebrate Temidun (aka Chinani) in a personalized, fun, and musical way 🎵.
-It displays a sweet message, blooming flowers 🌸, personal photos, and an embedded Spotify playlist made just for the birthday person.
+A special birthday web app built with Python (Flask) to celebrate Temidun (aka Chinani) in a personalized, fun, and musical way 🎵. <br>
+It displays a sweet message, blooming flowers 🌸, personal photos, and an embedded Spotify playlist made just for the birthday person.<br> <br>
 
-✨ Features
-🎂 Dynamic name rendering (e.g., “Happy Birthday {{ name }}!”)
-💐 Cute flower animation
-🎧 Embedded Spotify playlist
-🖼️ Image gallery of memories
-💌 A heartfelt letter page
-🔗 Direct links to each song with personal reasons
+✨ Features <br>
+🎂 Dynamic name rendering (e.g., “Happy Birthday {{ name }}!”) <br>
+💐 Cute flower animation <br>
+🎧 Embedded Spotify playlist <br>
+🖼️ Image gallery of memories <br>
+💌 A heartfelt letter page<br>
+🔗 Direct links to each song with personal reasons <br><br>
 
-🛠️ Tech Stack
-Frontend: HTML, CSS
-Backend: Python- Flask
-API: Spotify Web API
+🛠️ Tech Stack<br>
+Frontend: HTML, CSS<br>
+Backend: Python- Flask<br>
+API: Spotify Web API<br><br>
 
-⚙️ Installation
-git clone https://github.com/Shecodes-py/Spotify-Playlist-Web-App.git
-cd Spotify-Playlist-Web-App
-python -m venv venv
-venv\Scripts\activate  # on Windows
-pip install -r requirements.txt
-python app.py
+⚙️ Installation<br>
+git clone https://github.com/Shecodes-py/Spotify-Playlist-Web-App.git <br>
+cd Spotify-Playlist-Web-App<br>
+python -m venv venv<br>
+venv\Scripts\activate  # on Windows<br>
+pip install -r requirements.txt<br>
+python app.py<br> <br>
 
-🧠 Future Improvements
-Add playlist recommendations
-Improve UI/UX with animations
+🧠 Future Improvements<br>
+Add playlist recommendations<br>
+Improve UI/UX with animations<br>
 Include song preview playback
+
