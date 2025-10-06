@@ -31,5 +31,22 @@ python app.py<br> <br>
 🧠 Future Improvements<br>
 Add playlist recommendations<br>
 Improve UI/UX with animations<br>
-Include song preview playback
+Include song preview playback <br><br>
 
+🎁 Folder Structure <br>
+Spotify-Playlist-Web-App/
+│
+├── static/
+│   ├── style.css
+│   ├── favicon.ico
+│   └── images/
+│       ├── photo1.jpg
+│       └── photo2.jpg
+│
+├── templates/
+│   ├── index.html
+│   └── letter.html
+│
+├── app.py
+├── requirements.txt
+└── README.md
