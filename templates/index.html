@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Chinani</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+
+    <h1>Happy Birthday {{ name }}!</h1>
+    <p>Wishing you a day filled with love and joy.</p>
+    <p>Enjoy your special day with this playlist:</p>
+
+    <div class="flower" style="left: 20%">🌸</div>
+    <div class="flower" style="left: 50%">🌸</div>
+    <div class="flower" style="left: 80%">🌸</div>
+    <div class="flower" style="left: 100%">🌸</div>
+
+    <div class="gallery">
+        <img src="{{ url_for('static', filename='images/photo1.jpg') }}" alt="Photo 1">
+        <img src="{{ url_for('static', filename='images/photo2.jpg') }}" alt="Photo 2">
+    </div>
+
+    <h3>🎧 Birthday Playlist</h3>
+    <p> Here are 10 songs you would love to listen to</p>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0sNfSkRkYaVQCwRYkAZZjG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <div class="playlist">
+        <ul>
+        {% for song in songs %}
+            <li class="songcard">
+                <a href="{{ song.url }}" target="_blank">{{ song.title }} - {{ song.artist }}</a><br>
+                <small class="reason">Reason: {{ song.reason }}</small>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    <div class="about-section">
+    <nav>
+        <header>
+        <a href="/">Home</a><br>
+        <a href="/letter" class="about-link">  READ MY LETTER 💌</a>
+        </header>
+    </nav>
+    <p>Made with 💜 For Temidun</p>
+    </div>
+</body>
+</html>

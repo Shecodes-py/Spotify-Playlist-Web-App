@@ -1,0 +1,117 @@
+body {
+    background-image: url('Images/Backdrop.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    overflow: auto;
+    padding: 30px;
+}
+
+.flower {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    animation: float 10s linear infinite;
+}
+
+@keyframes float {
+    0% { transform: translatex(-50%) translatey(100vh) rotate(0deg); }
+    100% { transform: translateX(-50%) translateY(-10vh) rotate(360deg); }
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.gallery img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.playlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.songcard {
+    background: rgba(255, 255, 255, 0.1); /* transparent pastel look */
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+    color: black;
+    margin: 15px;
+}
+
+.songcard:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.songcard a {
+    color: #070000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.songcard .reason {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: rgb(7, 7, 0);
+}
+
+.about-page {
+    background: url("/static/images/download.jpg") no-repeat center/cover;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    text-align: center;
+}
+
+.letter-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.letter-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ffccff;
+}
+
+.letter-container p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    white-space: pre-line;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #ffb6c1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #ff87a0;
+}
