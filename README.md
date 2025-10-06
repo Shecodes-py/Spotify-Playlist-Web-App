@@ -27,6 +27,7 @@ python -m venv venv<br>
 venv\Scripts\activate  # on Windows<br>
 pip install -r requirements.txt<br>
 python app.py<br> <br>
+Hosted on Render == https://spotify-playlist-web-app.onrender.com
 
 🧠 Future Improvements<br>
 Add playlist recommendations<br>
@@ -50,3 +51,4 @@ Spotify-Playlist-Web-App/ <br>
 ├── app.py <br>
 ├── requirements.txt <br>
 └── README.md<br>
+
