@@ -15,7 +15,7 @@ def home():
 
 @app.route("/letter")
 def letter():
-    return render_template('Letter.html')
+    return render_template('letter.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
