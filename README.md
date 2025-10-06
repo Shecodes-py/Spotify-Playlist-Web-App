@@ -34,19 +34,19 @@ Improve UI/UX with animations<br>
 Include song preview playback <br><br>
 
 🎁 Folder Structure <br>
-Spotify-Playlist-Web-App/
-│
-├── static/
-│   ├── style.css
-│   ├── favicon.ico
-│   └── images/
-│       ├── photo1.jpg
-│       └── photo2.jpg
-│
-├── templates/
-│   ├── index.html
-│   └── letter.html
-│
-├── app.py
-├── requirements.txt
-└── README.md
+Spotify-Playlist-Web-App/ <br>
+│ <br>
+├── static/ <br>
+│   ├── style.css <br>
+│   ├── favicon.ico <br>
+│   └── images/ <br>
+│       ├── photo1.jpg <br>
+│       └── photo2.jpg <br>
+│ <br>
+├── templates/ <br>
+│   ├── index.html<br>
+│   └── letter.html<br>
+│<br>
+├── app.py <br>
+├── requirements.txt <br>
+└── README.md<br>
